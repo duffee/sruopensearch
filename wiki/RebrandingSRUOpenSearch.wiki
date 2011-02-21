@@ -1,4 +1,5 @@
 #summary How to change the images and colour scheme for your site.
+#labels Phase-Deploy
 
 = Introduction =
 
@@ -6,4 +7,3 @@ I did some work in changing the colour scheme over from blue to green and replac
 
 
 = Details =
-
