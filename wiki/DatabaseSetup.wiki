@@ -11,12 +11,12 @@ Have a look in "support/mysql scripts" for the sql scripts that will create the 
 (NB. capitalized terms are replaced with whatever is in db.php
 
 In mysql: 
-* create database dbname SEARCH_TERMS_DB;
-* use SEARCH_TERMS_DB;
-* source PATH/support/mysql scripts/search_terms.sql;
+  * create database dbname SEARCH_TERMS_DB;
+  * use SEARCH_TERMS_DB;
+  * source PATH/support/mysql scripts/search_terms.sql;
 and do the same for the EMAIL_DB
 
-create a user to access the databases and grant the priviledges
-* create user 'DB_USER'@'DB_SERVER' identified by 'DB_PASSWORD';
-* grant all on SEARCH_TERMS_DB.* to 'DB_USER'@'DB_SERVER';
-* grant all on EMAIL_DB.* to 'DB_USER'@'DB_SERVER';
+create a user to access the databases and grant the privileges
+  * create user 'DB_USER'@'DB_SERVER' identified by 'DB_PASSWORD';
+  * grant all on SEARCH_TERMS_DB.`*` to 'DB_USER'@'DB_SERVER';
+  * grant all on EMAIL_DB.`*` to 'DB_USER'@'DB_SERVER';
