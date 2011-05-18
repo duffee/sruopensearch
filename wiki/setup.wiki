@@ -19,7 +19,7 @@ The first things we'd like to implement are:
 = Documents =
 
   * [RebrandingSRUOpenSearch]
-  * [Database setup]
+  * [DatabaseSetup]
 
 = Details =
 
