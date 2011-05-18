@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Welcome to SRUOpenSearch.  The original author of the project, All Hail, Paul the Wise, has moved on to other pastures.  There are a handful of us, so far, that find his code very useful, so you will be seeing a version 1.1 out around Easter 2011 adding in the features that we've managed to bolt on.  If you find it interesting too, to use or extend, please join us.
+Welcome to SRUOpenSearch.  The original author of the project, All Hail, Paul the Wise, has moved on to other pastures.  There are a handful of us, so far, that find his code very useful, so you will be seeing a version 1.1 out around Easter 2011 (ha! that's a laugh - get in touch if you're interested) adding in the features that we've managed to bolt on.  If you find it interesting too, to use or extend, please join us.
 
 = An Apology =
 
