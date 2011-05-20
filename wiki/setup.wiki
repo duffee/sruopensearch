@@ -23,7 +23,4 @@ The first things we'd like to implement are:
 
 = Details =
 
-I'm leaving this here as a mnemonic, as it's just different enough from Mediawiki.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+You will need to have the curl libraries installed and compile php --with-curl 
