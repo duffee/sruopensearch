@@ -23,4 +23,6 @@ The first things we'd like to implement are:
 
 = Details =
 
-You will need to have the curl libraries installed and compile php --with-curl 
+  * You will need to have the curl libraries installed and compile php --with-curl 
+  * yum install curl aspell-devel perl-XML-LibXML
+  * cpan install Text::Aspell
