@@ -9,7 +9,7 @@ This is a Perl script and module of my creation and didn't need much documentati
 = Details =
 
 Required Perl modules:
-  * *SRU::Client* - included in the download.  If you are not running the script where it was unpacked, you will need to change the _use lib_ line at the top of the script to point to where the module is or to install the module with your other Perl modules.
+  * *SRU::Client* - included in the download.  If you are not running the script where it was unpacked, you will need to change the _use lib_ line at the top of the script to point to where the module is or to install the module with your other Perl modules.  You can do this with the instruction in the README file in the SRU-Client directory.
   * *SRU* - install with CPAN
   * *XML::Simple* - install with CPAN
   * *LWP::Simple* - install with CPAN (handles the web requests)
