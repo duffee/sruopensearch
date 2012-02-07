@@ -16,7 +16,7 @@ Required Perl modules:
   * *Moose* - install with CPAN, apt-get or yum (Perl's post-modern object oriented system)
 
 Some of these are already packaged up with your linux distribution, try:
-  * *Ubuntu* - apt-get libxml-perl libwww-perl libmoose-perl
+  * *Ubuntu* - apt-get libxml-libxml-perl libwww-perl libmoose-perl
   * *Fedora* - yum install perl-libxml-perl perl-libwww-perl perl-Moose
 
 If you already have CPAN installed, the easiest way to install all of these is to run 
