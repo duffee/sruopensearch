@@ -1,0 +1,25 @@
+# Introduction #
+
+Welcome to SRUOpenSearch.  The original author of the project, All Hail, Paul the Wise, has moved on to other pastures.  There are a handful of us, so far, that find his code very useful, so you will be seeing a version 1.1 out around Easter 2011 (ha! that's a laugh - get in touch if you're interested) adding in the features that we've managed to bolt on.  If you find it interesting too, to use or extend, please join us.
+
+# An Apology #
+
+This is my first Google Code project, so this will look rather shaky for a while as I don't have the time to come up to speed.
+
+
+# Issues #
+
+The first things we'd like to implement are:
+  * Collection specifier in the config.php file (searches _all_ collections by default)
+  * handling and displaying UTF8 characters (issue with the regex that untaints the input)
+
+# Documents #
+
+  * [RebrandingSRUOpenSearch](RebrandingSRUOpenSearch.md)
+  * [DatabaseSetup](DatabaseSetup.md)
+
+# Details #
+
+  * You will need to have the curl libraries installed and compile php --with-curl
+  * yum install curl aspell-devel perl-XML-LibXML
+  * cpan install Text::Aspell

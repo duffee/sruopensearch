@@ -1,0 +1,21 @@
+# Introduction #
+
+This is a Perl script and module of my creation and didn't need much documentation until I distributed it.  You are going to need Perl installed as well as a few third party modules available on [CPAN](http://www.cpan.org/)
+
+
+# Details #
+
+Required Perl modules:
+  * **SRU::Client** - included in the download.  If you are not running the script where it was unpacked, you will need to change the _use lib_ line at the top of the script to point to where the module is or to install the module with your other Perl modules.  You can do this with the instruction in the README file in the SRU-Client directory.
+  * **SRU** - install with CPAN
+  * **XML::Simple** - install with CPAN, apt-get or yum
+  * **LWP::Simple** - install with CPAN, apt-get or yum (handles the web requests)
+  * **Moose** - install with CPAN, apt-get or yum (Perl's post-modern object oriented system)
+
+Some of these are already packaged up with your linux distribution, try:
+  * **Ubuntu** - apt-get libxml-libxml-perl libwww-perl libmoose-perl
+  * **Fedora** - yum install perl-libxml-perl perl-libwww-perl perl-Moose
+
+If you already have CPAN installed, the easiest way to install all of these is to run
+> cpan XML::Simple LWP::Simple SRU Moose
+on the command line.  Otherwise, go to [MetaCPAN](https://metacpan.org/) to download the code, unpack and install it.
